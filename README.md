@@ -1,2 +1,2 @@
 # e-commerce-store-sales-analytics
-In this portfolio project, I performed sales analytics for an e-commerce store. The first step was connecting to the database in BigQuery. Then, I created a dataset by writing a Python query that joins the available database tables.
+In this portfolio project, I performed sales analytics for an e-commerce store. The first step was connecting to the database in BigQuery. Then, I created a dataset by writing a Python query that joins the available database tables. The dataset includes all orders and sessions, even for users who did not register on the site. I carefully selected the appropriate join types to ensure that no relevant data was lost, especially since registered users are few.
